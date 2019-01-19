@@ -1,0 +1,20 @@
+var isok = true;
+var amount = 123;
+var fullname;
+fullname = "farshid";
+var list = ['ali', 'alavi'];
+console.log(list);
+var list2 = ["reza", "razavi"];
+console.log(list2);
+var tuple;
+tuple = ["farshid", 1233];
+console.log(tuple);
+var color;
+(function (color) {
+    color[color["red"] = 0] = "red";
+    color[color["green"] = 1] = "green";
+    color[color["blue"] = 2] = "blue";
+})(color || (color = {}));
+;
+console.log(color[2]);
+console.log(color.green);
